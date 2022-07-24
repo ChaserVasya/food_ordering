@@ -1,0 +1,15 @@
+# flutter pub run flutter_native_splash:create
+# flutter pub run flutter_native_splash:remove
+flutter_native_splash:
+  image: assets/image/app/splash/fg.png
+
+  # color: "#F15412"
+  background_image: "assets/image/app/splash/bg.png"
+
+  android_12:
+    # With an icon background: 960×960 pixels, and fit within a circle 640 pixels in diameter.
+    # Without an icon background: 1152×1152 pixels, and fit within a circle 768 pixels in diameter.
+    image: assets/image/app/splash/fg.png
+    # icon_background_color: "#ffffff"
+  android_gravity: center_horizontal
+  fullscreen: true

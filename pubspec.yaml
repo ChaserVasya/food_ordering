@@ -12,15 +12,36 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.2
+  #presentation
+  cupertino_icons: 1.0.2
+  flutter_native_splash: 2.2.5
+
+  #data
+  json_annotation: 4.6.0
+
+  #state
+  flutter_bloc: 8.0.1
+
+  #architecture
+  get_it: 7.2.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.0
+  #presentation
+  flutter_launcher_icons: 0.9.3
 
+  #data
+  json_serializable: 6.3.1
+  build_runner: 2.2.0
+
+  #common
+  flutter_lints: 2.0.1
 
 flutter:
-
   uses-material-design: true
+  assets:
+  - assets/image/app/splash/
+  - assets/image/app/launcher_icon/
+  - assets/image/tag/
