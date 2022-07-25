@@ -42,6 +42,10 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+  - assets/image/dish/
+  - assets/image/tag/
+  - assets/image/app/
   - assets/image/app/splash/
   - assets/image/app/launcher_icon/
-  - assets/image/tag/
+  - assets/json/
+  - assets/json/domain/

@@ -7,6 +7,7 @@ const black = Color(0xFF333333);
 const red = Colors.red;
 
 final lightTheme = ThemeData(
+  useMaterial3: true,
   colorScheme: const ColorScheme(
     brightness: Brightness.light,
     primary: orange,
@@ -19,5 +20,13 @@ final lightTheme = ThemeData(
     onPrimary: black,
     onSecondary: black,
     onSurface: black,
+    surfaceTint: white,
+  ),
+  elevatedButtonTheme: ElevatedButtonThemeData(
+    style: ButtonStyle(
+      foregroundColor: MaterialStateProperty.all(black),
+    ),
   ),
 );
+
+//TODO Check font theme
